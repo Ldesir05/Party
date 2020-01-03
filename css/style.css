@@ -1,16 +1,17 @@
 /* 
 Theme Name: Bootstrap Theme 
-Author: WebThemez.com
+Author: Limbert
 License: https://webthemez.com/license 
 */
-/*--------------------------------------------
-logo testing .//////////////////////////////
-------------------------------------------------*/
-#logo1{
-  width: 200px;
-  height: 65px;
-  float: left;
-  background-color: white;
+
+/*--------------------------------------------------------------
+#logo on main page
+----------------------------------------------------------------*/
+
+#logo-on-main-page{
+  position: absolute;
+  margin-left: -5%;
+  margin-bottom: -5px;
 }
 /*--------------------------------------------------------------
 # General
@@ -155,11 +156,15 @@ h1, h2, h3, h4, h5, h6 {
   /* color: #e448ff; */
   margin-right: 8px;
 }
-
+/*Edit this for the position of the logo....*/
 #header #logo img {
+  height: 54px;
+  width: 200px;
   padding: 0;
   margin: 0;
-  background-color: white;
+  background-color: #09040c;
+  /*background-color: white;*/
+
 }
 
 @media (max-width: 768px) {
@@ -167,11 +172,21 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0;
     height: 74px;
   }
-  #header #logo h1 {
+  #header #logo  h1 {
     font-size: 34px;
   }
   #header #logo img {
     max-height: 40px;
+  }
+  #nav-image {
+    max-height: 300px;
+    max-width: 200px;
+  }
+  #flxLogo{
+    max-height: 300px;
+    max-width: 400px;
+    margin-left: -8%;
+    margin-bottom: 10%;
   }
 }
 
@@ -287,7 +302,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition-property: opacity;
   transition-property: opacity;
 }
+@media (max-width: 768px) {
 
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -704,7 +721,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 /**********
 Events*/
-#event{
+#music{
 	padding:90px 0;
 }
 .box2-main{
