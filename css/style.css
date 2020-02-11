@@ -640,6 +640,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #services {
   padding: 60px 0 0 0;
+  background: #1b001f;
+
 }
 
 #services .box {
@@ -908,6 +910,28 @@ padding: 25px;
 }
 .align-center {
     text-align: center;
+}
+/*=========================
+music
+=========================*/
+#music{
+  padding:90px 0;
+  background: #1b001f;
+  background-size: cover;
+}
+#music .section-header{
+  margin-bottom:40px;
+}
+/*=============
+tour date
+=============*/
+#tour{
+  padding:90px 0;
+  background: #1b001f;
+
+}
+#tour .section-header{
+  margin-bottom:40px;
 }
 
 
