@@ -191,21 +191,22 @@ h1, h2, h3, h4, h5, h6 {
 /*
 test
 */
-/*@media (max-width: 767px){*/
-/*  #intro {*/
-/*    background: url("../img/about-image3_854x943.png") no-repeat;*/
-/*    background-size: 100% 100%;*/
-/*    background-position:center;*/
-/*    background-color: #6c757d;*/
-/*  }*/
-/*}*/
-@media (max-width: 789px){
+@media (max-width: 767px){
   #intro {
     background: url("../img/intro-carousel/2.jpg") no-repeat fixed bottom right transparent;
     background-size: 100% 100%;
     background-position:center;
+    background-color: #6c757d;
   }
 }
+
+/*@media (max-width: 767px){*/
+/*  #intro {*/
+/*    background: url("../img/intro-carousel/2.jpg") no-repeat fixed bottom right transparent;*/
+/*    background-size: 100% 100%;*/
+/*    background-position:center;*/
+/*  }*/
+/*}*/
 
 /*--------------------------------------------------------------
 # Intro Section
