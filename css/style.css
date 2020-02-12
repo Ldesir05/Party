@@ -191,13 +191,13 @@ h1, h2, h3, h4, h5, h6 {
 /*
 test
 */
-/*@media (max-width: 767px){*/
-/*  #intro {*/
-/*    background: url("../img/intro-carousel/2.jpg") no-repeat scroll bottom right transparent;*/
-/*    background-size: 100% 100%;*/
-/*    background-position:center;*/
-/*  }*/
-/*}*/
+@media (max-width: 767px){
+  #intro {
+    background: url("../img/intro-carousel/2.jpg") no-repeat scroll bottom right transparent;
+    background-size: 100% 100%;
+    background-position:center;
+  }
+}
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -206,7 +206,7 @@ test
   width: 100%;
   height: 90vh;
   position: relative;
-  background: url("../img/intro-carousel/2.jpg") no-repeat fixed bottom right transparent;
+  background: url("../img/intro-carousel/2.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -243,7 +243,6 @@ test
 
 @media (max-width: 767px) {
   #intro .intro-content h2 {
-    background: url("../img/intro-carousel/2.jpg") no-repeat scroll bottom right transparent;
     font-size: 22px;
     padding: 0;
   }
