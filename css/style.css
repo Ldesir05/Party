@@ -951,6 +951,7 @@ tour date
 /*-------pricing-area start-------*/
 #price{
 	padding:90px 0;
+  background-color: black;
 } 
 #price .section-header{
 	margin-bottom:40px;
