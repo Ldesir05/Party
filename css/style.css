@@ -701,7 +701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #c3c3c3;
-   background: linear-gradient(45deg, #E91E63 0%, #405ece 100%);
+   /*background: linear-gradient(45deg, #E91E63 0%, #405ece 100%);*/
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1445,16 +1445,53 @@ video{
     margin: 0 auto;
 }
 
-
-/*----------------------------------------
-#Custom Footer
-------------------------------------------*/
-.fa-instagram1 {
-  background: #125688;
-  color: white;
-}
 /*================
 Social Media icons
 ================*/
+.social-media-icons ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
 
-/*FOOTER*/
+.social-media-icons a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.social-media-icons a:nth-child(1) i {
+  color: #d34836;
+}
+
+.social-media-icons a:nth-child(2) i {
+  color: #4099FF;
+}
+
+.social-media-icons a:nth-child(3) i {
+  color: #b31217;
+}
+
+.social-media-icons a:nth-child(4) i {
+  color: dodgerblue;
+}
+.social-media-icons a:nth-child(5) i {
+  color: white;
+}
+.social-media-icons a:nth-child(6) i {
+  color: green;
+}
+
+.social-media-icons a i:hover{
+  color: black;
+}
+/*testing */
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
