@@ -194,17 +194,20 @@ h1, h2, h3, h4, h5, h6 {
 /*
 test
 */
-@media (max-width: 767px){
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3){
   #intro {
     background: url("../img/intro-carousel/2.jpg") no-repeat scroll bottom right transparent;
-    /*background-size: 100% 100%;*/
     background-position:center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    /*background-size: cover;*/
   }
 }
+
 
 /*--------------------------------------------------------------
 # Intro Section
